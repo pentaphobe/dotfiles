@@ -3,5 +3,5 @@
 ./homebrew.sh
 ./fan.sh
 ./net_tools.sh
-
+./ocaml.sh
 

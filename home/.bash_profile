@@ -12,5 +12,6 @@ pushd ${DIR} >> /dev/null
 
 source ../aliases/index.sh
 source ./home.sh
+source ./auto_installed.sh
 
 popd >> /dev/null
