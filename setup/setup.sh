@@ -4,8 +4,5 @@ source ../utils/utils.sh
 
 entry_point_setup
 
-./homebrew.sh
-./fan.sh
-./net_tools.sh
-./ocaml.sh
-
+./hostname.sh
+./remove_macos_nanny.sh

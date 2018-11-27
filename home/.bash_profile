@@ -1,5 +1,3 @@
-echo bp
-
 SOURCE="${BASH_SOURCE[0]}"
 while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
   DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null && pwd )"
@@ -12,6 +10,5 @@ pushd ${DIR} >> /dev/null
 
 source ../aliases/index.sh
 source ./home.sh
-source ./auto_installed.sh
 
 popd >> /dev/null
