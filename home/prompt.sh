@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 source ../utils/utils.sh
-source ../aliases/index.sh
+source ../aliases/aliases.sh
 
 dry_run_message "setting up custom prompt"
 

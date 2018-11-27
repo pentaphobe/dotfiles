@@ -8,7 +8,7 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null && pwd )"
 
 pushd ${DIR} >> /dev/null
 
-source ../aliases/index.sh
+source ../aliases/aliases.sh
 source ./home.sh
 
 popd >> /dev/null
