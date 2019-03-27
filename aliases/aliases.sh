@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-alias ls='ls -G'
+# enable colours and type suffixes
+alias ls='ls -GF'
 
 function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
 
