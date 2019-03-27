@@ -8,4 +8,4 @@ entry_point_setup
 ./fan.sh
 ./net_tools.sh
 ./ocaml.sh
-
+./emacs.sh

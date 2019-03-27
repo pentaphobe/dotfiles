@@ -12,3 +12,6 @@ message "installing" "homebrew..."
 message "adding" "caskroom..."
 brew tap caskroom/cask
 
+message "installing" "regrep..."
+brew install rg
+
