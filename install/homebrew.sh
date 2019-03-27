@@ -15,3 +15,6 @@ brew tap caskroom/cask
 message "installing" "regrep..."
 brew install rg
 
+message "installing" "tree..."
+brew install tree
+
