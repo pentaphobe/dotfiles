@@ -20,7 +20,7 @@ function fixHome() {
 }
 
 function nicePath() {
-  local foo=$(fixHome $1)  
+  local foo=$(fixHome "$@")  
   local len=${#foo}
   local parts
   if [ $len -ge $MAX_PATH_LEN ]; then
