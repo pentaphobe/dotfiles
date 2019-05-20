@@ -2,6 +2,10 @@
 
 Reinventing the wheel for fun and nonprofit
 
+Since purchasing a new laptop last year and losing the work device I'd been using as my primary driver for 5 years, I've had to dive into the world of setting up a new machine.
+
+This repo is a very un-fancy attempt at a clean-slate setup to my personal preferences, but is growing very slowly, partially because I again have a work machine stealing my time and partially because I'm attempting to avoid filling the new machine up with random tools I only use once.
+
 ## Usage
 
 1. clone repository
