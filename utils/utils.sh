@@ -32,7 +32,7 @@ is_sourced() {
 }
 
 dry_run_message() {
-  echo "${RESTORE_CURSOR}${CLEAR_TO_END}"
+  echo "${CLEAR_TO_END}${CLEAR_TO_START}${RESTORE_CURSOR}"
   if [ -n "$WET_RUN" ]; then
     message "Running " "$@..."
   else

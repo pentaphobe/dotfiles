@@ -18,3 +18,6 @@ brew install rg
 message "installing" "tree..."
 brew install tree
 
+message "installing" "jq..."
+brew install jq
+

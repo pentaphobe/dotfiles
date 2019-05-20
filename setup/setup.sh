@@ -6,3 +6,5 @@ entry_point_setup
 
 ./hostname.sh
 ./remove_macos_nanny.sh
+./macos_defaults.sh
+
