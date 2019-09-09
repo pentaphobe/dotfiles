@@ -1,0 +1,5 @@
+
+# Turn off Gatekeeper
+sudo spctl --master-disable
+
+

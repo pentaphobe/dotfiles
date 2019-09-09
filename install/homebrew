@@ -1,0 +1,1 @@
+/usr/bin/ruby -e "$(https_proxy=gblproxy.lb.service.anz:80 curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
