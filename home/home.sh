@@ -9,4 +9,7 @@ source ./prompt.sh
 source ./auto_installed.sh
 source ./colors.sh
 
+export GOPATH="${HOME}/go"
+export PATH="${PATH}:${GOPATH}/bin"
+
 message setup "all done"
