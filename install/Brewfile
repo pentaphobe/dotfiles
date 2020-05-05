@@ -1,0 +1,85 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "jmacdonald/amp"
+tap "wtfutil/wtfutil"
+# Bastard Tetris
+brew "bastet"
+# Multi-platform, multi-architecture disassembly framework
+brew "capstone"
+# Cross-platform make
+brew "cmake"
+# Ogg Bitstream Library
+brew "libogg"
+# Vorbis General Audio Compression Codec
+brew "libvorbis"
+# Lightweight speech recognition engine for mobile devices
+brew "cmu-pocketsphinx"
+# GNU data recovery tool
+brew "ddrescue"
+# Functional programming language for building browser-based GUIs
+brew "elm"
+# GNU Emacs text editor
+brew "emacs", args: ["with-cocoa"]
+# Library for manipulating PNG images
+brew "libpng"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Add GitHub support to git on the command-line
+brew "hub"
+# JPEG image codec that aids compression and decompression
+brew "jpeg-turbo"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Multi-platform support library with a focus on asynchronous I/O
+brew "libuv"
+# Cryptographic & SSL/TLS library
+brew "mbedtls"
+# Network grep
+brew "ngrep"
+# Small build system for use with gyp or CMake
+brew "ninja"
+# Port scanning utility for large networks
+brew "nmap"
+# General purpose programming language in the ML family
+brew "ocaml"
+# The OCaml package manager
+brew "opam"
+# Implementation of the OpenAL 3D audio API
+brew "openal-soft"
+# Manage compile and link flags for libraries
+brew "pkg-config"
+# Cross-platform library for audio I/O
+brew "portaudio"
+# Protocol buffers (Google's data interchange format)
+brew "protobuf"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Low-level access to audio, keyboard, mouse, joystick, and graphics
+brew "sdl2"
+# SDL2 graphics drawing primitives and other support functions
+brew "sdl2_gfx"
+# Library for loading images as SDL surfaces and textures
+brew "sdl2_image"
+# Sample multi-channel audio mixer library
+brew "sdl2_mixer"
+# Library for using TrueType fonts in SDL applications
+brew "sdl2_ttf"
+# Simple tool to count source lines of code
+brew "sloc"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Internet file retriever
+brew "wget"
+# HTTP benchmarking tool
+brew "wrk"
+# Translate common Internet acronyms
+brew "wtf"
+# The personal information dashboard for your terminal
+brew "wtfutil"
+# Text editor for your terminal
+brew "jmacdonald/amp/amp"
+cask "godot-mono"
+cask "qlstephen"
+cask "smcfancontrol"
+cask "soundcleod"
