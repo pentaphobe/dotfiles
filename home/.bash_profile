@@ -12,4 +12,4 @@ source ../aliases/aliases.sh
 source ./home.sh
 
 popd >> /dev/null
-eval "$(pyenv init -)"
+

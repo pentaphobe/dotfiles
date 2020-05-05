@@ -12,8 +12,4 @@ source ${DIR}/.bash_profile
 #[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 #[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-if [ $VIM ]
-then
-  export PS1="${PS1}$(tput setaf 3)(vim)$(tput setaf 7)> "
-fi
 

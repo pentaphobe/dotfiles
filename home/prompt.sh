@@ -39,3 +39,8 @@ make_nice_path() {
 
 PROMPT_COMMAND="${PROMPT_COMMAND:+"$PROMPT_COMMAND; "}make_nice_path"
 export PS1='\[$(tput bold)\]\[$(tput setaf 6)\]\[$(tput setaf 3)\]\u\[$(tput setaf 1)\]@\[$(tput setaf 3)\]\[$(tput setaf 6)\]${NICE_PATH}\[$(tput setaf 4)\]\\$ \[$(tput sgr0)\]'
+
+if [ $VIM ]
+then
+  export PS1="${PS1}$(tput setaf 3)(vim)$(tput setaf 7)> "
+fi
